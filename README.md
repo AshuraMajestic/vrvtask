@@ -6,17 +6,19 @@ This is a **role-based management system** built with [Next.js](https://nextjs.o
 ## How It Works
 
 1. **User Authentication**:
+   - user "/" for user side
    - Users can sign up and log in.
    - User data is stored in the database.
 
-2. **Admin Dashboard**:
+3. **Admin Dashboard**:
    - Accessible at `/admin` for admin users.
+   - for Admin checking login using email:"abc@gmai.com" pass:"Abc@1234"
    - Features include:
      - Adding, editing, and deleting users.
      - Creating roles with specific permissions (read, edit, delete).
      - Assigning roles to users.
 
-3. **Permissions**:
+4. **Permissions**:
    - Roles define the actions a user can perform.
 
 ## Installation
@@ -24,7 +26,7 @@ This is a **role-based management system** built with [Next.js](https://nextjs.o
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/<username>/<repository-name>.git
+   git clone git@github.com:AshuraMajestic/vrvtask.git
    cd <repository-name>
    ```
 
