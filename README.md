@@ -12,7 +12,7 @@ This is a **role-based management system** built with [Next.js](https://nextjs.o
 
 3. **Admin Dashboard**:
    - Accessible at `/admin` for admin users.
-   - for Admin checking login using email:"abc@gmai.com" pass:"Abc@1234"
+   - for Admin checking login using email:"abc@gmail.com" pass:"Abc@1234"
    - Features include:
      - Adding, editing, and deleting users.
      - Creating roles with specific permissions (read, edit, delete).
